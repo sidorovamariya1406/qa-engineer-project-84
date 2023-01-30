@@ -30,7 +30,7 @@ test-cases:
 ---
 - summary: |
     Проверка возможности просмотра подробной информации о товаре. Проверка возможности листать фотографии
-   status: pass
+  status: pass
 ---
 - summary: |
     Проверка возможности добавления товара в корзину с главной страницы
@@ -47,11 +47,11 @@ test-cases:
 - summary: |
     Проверка возможности добавления товара из карточки товара
   status: pass
-
+---
 bugreports:
 - summary: |
     Не работает поиск товаров по ключевому слову, существующему на странице
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -65,7 +65,7 @@ bugreports:
 ---
 - summary: |
     Не работает поиск товаров по ключевому слову, не существующему на странице
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -78,7 +78,7 @@ bugreports:
 ---
 - summary: |
     Фильтрация товаров по цене осуществляется только внутри страницы, а не по всему каталогу товаров (Скриншот RegressBug3Sc1.png, скриншот RegressBug3Sc2.png)
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -97,7 +97,7 @@ bugreports:
 ---
 - summary: |
     Не работает валидация вводимого значения цены
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -110,7 +110,7 @@ bugreports:
 ---
 - summary: |
     Не работает фильтрация товаров по цене в корректном диапазоне (при отсутствии товаров по цене из данного диапазона)
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -123,7 +123,7 @@ bugreports:
 ---
 - summary: |
     При смене языка не работает конвертация цен в валюту страны выбранного языка
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -136,7 +136,7 @@ bugreports:
 ---
 - summary: |
     При смене языка не переводится содержимое полей и раскрывающихся списков
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -150,7 +150,7 @@ bugreports:
 ---
 - summary: |
     Некорректно работает переключатель "В наличии"
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -162,10 +162,10 @@ bugreports:
   actual-result: |
     На странице остались все товары, которые есть в наличии (Скриншот Bug8Sc1.png)
     На странице пропала возможность навигации между страницами (Скриншот Bug8Sc2.png)
- ---
+---
 - summary: |
     На разных страницах сайта представлены разные категории товаров
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -180,7 +180,7 @@ bugreports:
      ---
 - summary: |
     На разных страницах сайта представлены разные производители товаров
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
