@@ -1,7 +1,7 @@
 ---
 - summary: |
     Не работает поиск товаров по ключевому слову, существующему на странице
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -15,7 +15,7 @@
 ---
 - summary: |
     Не работает валидация вводимого значения цены
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -28,7 +28,7 @@
 ---
 - summary: |
     Нет возможности пролистывать фотографии в карточке товара
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -42,7 +42,7 @@
 ---
 - summary: |
     При смене языка не работает конвертация цен в валюту страны выбранного языка
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -55,7 +55,7 @@
 ---
 - summary: |
     Нет возможности сбросить выбранную категорию без обновления страницы
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -69,7 +69,7 @@
 ---
 - summary: |
     При смене языка не переводится содержимое полей и раскрывающихся списков
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -83,7 +83,7 @@
 ---
 - summary: |
     Стартовая страница сайта с каталогом товаров загружается с активной кнопой "Предыдущая"
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -96,7 +96,7 @@
 ---
 - summary: |
     Последняя страница каталога товаров загружается с активной кнопой "Следующая"
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
@@ -110,7 +110,7 @@
 ---
 - summary: |
     Некорректно работает переключатель "В наличии"
-   environment: |
+  environment: |
     Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
     ОС Windows 10 22H2
   steps-to-reproduce: |
